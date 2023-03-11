@@ -1,6 +1,8 @@
 # klein_attack
 
-The goal of this project will be to use the knowledge we have learned in class on a topic from a
+This project was done in the course of **Arnab Roy** during my intership in Austria.
+
+The goal of this project was to use the knowledge we have learned in class on a topic from a
 research paper. This will allow us to confront a real problem of an advanced level. We will try
 to implement an attack thanks to this paper to see that it doesn’t work only theoretically but
 that it is also effective in practice.
