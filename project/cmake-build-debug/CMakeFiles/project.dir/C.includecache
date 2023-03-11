@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/klein64.h
+kleinSbox.h
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/kleinSbox.h
+
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/kleinAttack.h
+klein64.h
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/klein64.h
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+limits.h
+-
+
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/kleinSbox.h
+
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/main.c
+stdio.h
+-
+time.h
+-
+math.h
+-
+klein64.h
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/klein64.h
+kleinAttack.h
+C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/kleinAttack.h
+time.h
+-
+
