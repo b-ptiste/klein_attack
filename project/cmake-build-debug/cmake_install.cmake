@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project
+# Install script for directory: C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/klein_attack/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/CALLARD_Baptiste_project_KLEIN/project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/baptc/Documents/GM/INSA/2A/mobi/cyber/Project/klein_attack/project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

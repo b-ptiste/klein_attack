@@ -42,7 +42,7 @@ int main(int argc, char **argv){
     // so it can be useful to consider a key that you choose in order to find quickly the higher nibble
     // with brute force
 
-    int with_random = 0;
+    int with_random = 1;
 
     uint8_t* key = malloc(sizeof(uint8_t)*8);
     if(with_random){
@@ -66,8 +66,6 @@ int main(int argc, char **argv){
     uint8_t message[8] = {
             0x12, 0x34, 0x56, 0x78, 0x90, 0xAB, 0xCD, 0xEF,
     };
-
-
     uint8_t cipher[8];
 
     klein64_encrypt(message,key,cipher);
@@ -85,46 +83,6 @@ int main(int argc, char **argv){
     }
 
 
-
-/*
-    printf("============ Test with right round key ===========\n");
-
-    uint8_t cipher1[8];
-    uint8_t cipher2[8];
-    uint8_t message1[8];
-    uint8_t message2[8];
-
-    for(j=0;j<states[0];j+=2){
-        for(i=0;i<8;i++){
-            message1[i] = states[j][i];
-            message2[i] = states[j+1][i];
-        }
-
-        int mask[8] = {0, 0, 1, 0, 0, 0, 0, 0};
-
-
-        displayAddText(message1,message2);
-
-        klein64_encrypt(message1,key8_2,cipher1);
-        klein64_encrypt(message2,key8_2,cipher2);
-        uint8_t roundKeyLast[8] = {0xf0 ,0x55     ,0xf9 ,0xb2     ,0xa5 ,0x23     ,0x2 ,0x74};
-        InvMixcolumn(cipher1);
-        InvMixcolumn(cipher2);
-
-        printf("It is a correct pair:\n");
-        displayAddText(cipher1,cipher2);
-
-
-        klein64_encrypt(message1,key8_2,cipher1);
-        klein64_encrypt(message2,key8_2,cipher2);
-        uint8_t* state1 = decrypteToCheck(cipher1, roundKeyLast);
-        uint8_t* state2 = decrypteToCheck(cipher2, roundKeyLast);
-
-        printf("With the correcte pair we pass the test:\n");
-        displayAddText(state1,state2);
-        printf("----------------------\n");
-    }
-*/
 
     printf("########################################\n        Start key recovering  \n########################################\n\n");
     printf("****************************************\n           Print Round Key       \n****************************************\n");

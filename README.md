@@ -17,3 +17,10 @@ the lower nibbles. Thus, it is possible to find 32 bits with a differential atta
 nibbles can be recovered by brute force or by using a trick again, so we can also reduce the
 complexity of this part. Thus, we will show that it is possible to have an O(224) attack for 5
 rounds and O(230) for 6 rounds to fully recover the key.
+
+# test
+
+The key is generated randomly. You just have to run the main file.
+
+* If you want to choose your own key modify : `key`
+* If you want to chose the number of round from 2 to 6 modify : `ROUNDS_64` in klein64.h
