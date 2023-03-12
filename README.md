@@ -15,8 +15,8 @@ have done to attack KLEIN64 between 2 and 6 rounds.
 Without going into details, KLEIN64 is a 64 bits block cipher. The attack consists in first finding
 the lower nibbles. Thus, it is possible to find 32 bits with a differential attack. Then, the higher
 nibbles can be recovered by brute force or by using a trick again, so we can also reduce the
-complexity of this part. Thus, we will show that it is possible to have an O(224) attack for 5
-rounds and O(230) for 6 rounds to fully recover the key.
+complexity of this part. Thus, we will show that it is possible to have an $O(2^{24})$ attack for 5
+rounds and $O(2^{30})$ for 6 rounds to fully recover the key.
 
 # test
 
