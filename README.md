@@ -4,7 +4,7 @@ This project was done in the course of **Arnab Roy** during my intership in Aust
 
 The goal of this project was to use the knowledge we have learned in class on a topic from a
 research paper. This will allow us to confront a real problem of an advanced level. We will try
-to implement an attack thanks to this paper to see that it doesn’t work only theoretically but
+to implement an attack from scratch thanks to this paper to see that it doesn’t work only theoretically but
 that it is also effective in practice.
 
 My subject for this project is to find a differential attack on KLEIN64 on the maximum of round.
